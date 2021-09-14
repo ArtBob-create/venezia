@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>venezia</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__info">
+            <div class="header__catalog catalog-header">
+              <span class="catalog-header__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <ul class="catalog-header__podmenu">
+                <li><a href="catalog.html">Обои</a></li>
+                <li><a href="#">Краски</a></li>
+                <li><a href="#">Фрески</a></li>
+                <li><a href="#">Декор</a></li>
+                <li><a href="#">Карнизы и шторы</a></li>
+                <li><a href="#">Рулонные шторы</a></li>
+                <li><a href="#">Ткани</a></li>
+                <li><a href="#">Подоконники DANKE</a></li>
+                <li><a href="#">Маркизы</a></li>
+                <li><a href="#">Лепнина</a></li>
+              </ul>
+              <p class="catalog-header__text">каталог</p>
+            </div>
+            <span class="header__text">Пн-Пт 09:00-18:00</span>
+            <span class="header__text">г. Симферополь, пр. Победы, 1</span>
+            <a href="mailto:info@venezia-vip.ru" class="header__link"
+              >info@venezia-vip.ru</a
+            >
+            <a href="tel:+79781234567" class="header__link header__link-tel"
+              >+7 (978) 123 45 67</a
+            >
+          </div>
+          <div class="header__middle">
+            <form class="header__search search">
+              <button type="submit" class="search__ico">
+                <img src="img/ico/search.svg" alt="search" />
+              </button>
+              <input type="search" class="search__input" />
+            </form>
+            <a href="index.html" class="header__logo">
+              <img src="img/ico/logo.svg" alt="logo" />
+            </a>
+            <div class="header__functional">
+              <div class="header__basket">
+                <a href="cartonregistr.html" class="link"> Корзина </a>
+              </div>
+
+              <div class="header__entranceregistration">
+                <a href="#" class="header__entrance link"> Вход </a>
+                <span>/</span>
+                <a href="registr.html" class="header__registration link">
+                  Регистрация
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a href="#" class="menu__link">услуги</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">акции</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="info.html" class="menu__link">информация</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">о компании</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">отзывы</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="menu__link">контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="position">
+          <div class="position__container container">
+            <a href="index.html">Venezia </a><a href="#">Обои </a
+            ><a href="#">Обои Balance </a>
+          </div>
+        </div>
+        <section class="cardproduct" data-aos="fade-up">
+          <div class="cardproduct__container container">
+            <div class="cardproduct__prew">
+              <div class="cardproduct__big zoom" id="ex1">
+                <img id="expandedImg" style="width: 100%" />
+              </div>
+              <div class="cardproduct__row">
+                <div class="cardproduct__col">
+                  <img
+                    class="cardproduct__img"
+                    id="cardproductImg"
+                    src="img/add.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="cardproduct__col">
+                  <img class="cardproduct__img" src="img/product.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="cardproduct__content">
+              <h2 class="cardproduct__title title">Balance</h2>
+
+              <div class="cardproduct__text">
+                <p>Артикул: 220003</p>
+                <p>Производитель: Graham & Brown</p>
+                <p><b>Цена 5500 РУБ за рулон</b></p>
+              </div>
+              <div class="cart__management cardproduct__management">
+                <div class="cart__number">
+                  <div class="cart__up cardproduct__btn-up">+</div>
+
+                  <input
+                    type="number"
+                    class="cart__numericupdown cardproduct__numericupdown"
+                    value="1"
+                    maxlength="3"
+                  />
+                  <div
+                    class="
+                      cart__down cart__down--disabled
+                      cardproduct__btn-down
+                    "
+                  >
+                    -
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="cardproduct__btn cardproduct__btn-nomargin"
+                >
+                  купить
+                  <span>
+                    <img src="img/ico/shopping-basket_w.svg" alt="" />
+                  </span>
+                </button>
+                <a href="#" class="cardproduct__link link__product"
+                  >Заказать в один клик</a
+                >
+              </div>
+              <div class="cardproduct__description">
+                <h3 class="cardproduct__title title">Описание</h3>
+                <p class="cardproduct__info text">
+                  Balance – спокойствие света, прозрачность и тонкость фактур, и
+                  конечно же, многогранное сочетание между собой. Отличительная
+                  особенность данной коллекции - обои BALANCE идеально
+                  сочетаются между собой, а также целостно смотрятся в своём
+                  монолите.
+                </p>
+              </div>
+              <div class="cardproduct__specifications specifications">
+                <h3 class="specifications__title title">Характеристики</h3>
+                <div class="specifications__lists">
+                  <dl>
+                    <dt>
+                      <span>Бренд</span>
+                    </dt>
+                    <dd>Graham & Brown</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Страна</span>
+                    </dt>
+                    <dd>Великобритания</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Программа</span>
+                    </dt>
+                    <dd>Заказная</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Срок доставки при отсутствии на складе</span>
+                    </dt>
+                    <dd>от 19 дней</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Артикул</span>
+                    </dt>
+                    <dd>105754</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Базовая единица</span>
+                    </dt>
+                    <dd>рул</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Материал обоев</span>
+                    </dt>
+                    <dd>Флизелин</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Размер обоев</span>
+                    </dt>
+                    <dd>0,52 х 10,05 м.</dd>
+                  </dl>
+                  <dl>
+                    <dt>
+                      <span>Рапорт</span>
+                    </dt>
+                    <dd>64 см</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="product product-bg" data-aos="fade-up">
+          <div class="product__container container">
+            <h2 class="product__title title title-center">
+              Варианты коллекций
+            </h2>
+            <div class="product__items">
+              <div class="product__item item">
+                <a href="#" class="item__img">
+                  <img src="img/product.jpg" alt="" />
+                </a>
+                <h3 class="item__title">Обои Balance</h3>
+                <p class="item__text">
+                  Graham & Brown <span>Рулон 0,52 х 10,05 м</span>
+                  <b>Цена 5500 РУБ</b>
+                </p>
+                <div class="product__btn">
+                  <button type="button" class="cardproduct__btn">
+                    купить
+                    <span>
+                      <img src="img/ico/shopping-basket_w.svg" alt="" />
+                    </span>
+                  </button>
+                  <a
+                    href="#"
+                    class="link__product product__link product__link-btn"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+              <div class="product__item item">
+                <a href="#" class="item__img">
+                  <img src="img/product.jpg" alt="" />
+                </a>
+                <h3 class="item__title">Обои Balance</h3>
+                <p class="item__text">
+                  Graham & Brown <span>Рулон 0,52 х 10,05 м</span>
+                  <b>Цена 5500 РУБ</b>
+                </p>
+                <div class="product__btn">
+                  <button type="button" class="cardproduct__btn">
+                    купить
+                    <span>
+                      <img src="img/ico/shopping-basket_w.svg" alt="" />
+                    </span>
+                  </button>
+                  <a
+                    href="#"
+                    class="link__product product__link product__link-btn"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+              <div class="product__item item">
+                <a href="#" class="item__img">
+                  <img src="img/product.jpg" alt="" />
+                </a>
+                <h3 class="item__title">Обои Balance</h3>
+                <p class="item__text">
+                  Graham & Brown <span>Рулон 0,52 х 10,05 м</span>
+                  <b>Цена 5500 РУБ</b>
+                </p>
+                <div class="product__btn">
+                  <button type="button" class="cardproduct__btn">
+                    купить
+                    <span>
+                      <img src="img/ico/shopping-basket_w.svg" alt="" />
+                    </span>
+                  </button>
+                  <a
+                    href="#"
+                    class="link__product product__link product__link-btn"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+              <div class="product__item item">
+                <a href="#" class="item__img">
+                  <img src="img/product.jpg" alt="" />
+                </a>
+                <h3 class="item__title">Обои Balance</h3>
+                <p class="item__text">
+                  Graham & Brown <span>Рулон 0,52 х 10,05 м</span>
+                  <b>Цена 5500 РУБ</b>
+                </p>
+                <div class="product__btn">
+                  <button type="button" class="cardproduct__btn">
+                    купить
+                    <span>
+                      <img src="img/ico/shopping-basket_w.svg" alt="" />
+                    </span>
+                  </button>
+                  <a
+                    href="#"
+                    class="link__product product__link product__link-btn"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="additionally" data-aos="fade-up">
+          <div class="product__container container">
+            <h2 class="product__title title title-center">
+              Не забудте заказать
+            </h2>
+            <div class="product__items">
+              <div class="product__item item">
+                <a href="#" class="item__img">
+                  <img src="img/add.jpg" alt="" />
+                </a>
+                <h3 class="item__title">Клей для обоев Semin</h3>
+                <p class="item__text">
+                  Sem pro XXL <span>5 кг</span>
+                  <b>Цена 940 РУБ</b>
+                </p>
+                <div class="product__btn">
+                  <button type="button" class="cardproduct__btn">
+                    купить
+                    <span>
+                      <img src="img/ico/shopping-basket_w.svg" alt="" />
+                    </span>
+                  </button>
+                  <a
+                    href="#"
+                    class="link__product product__link product__link-btn"
+                    >ПОДРОБНЕЕ</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__info">
+            <div class="footer__logo">
+              <img src="img/ico/logo_footer.svg" alt="logo" />
+            </div>
+            <div class="footer__contacts">
+              <address class="footer__address">
+                г. Симферополь, пр. Победы, 1
+              </address>
+              <p class="footer__days">Пн-Пт 09:00-18:00</p>
+              <a href="mailto:info@venezia-vip.ru" class="footer__mail"
+                >info@venezia-vip.ru</a
+              >
+              <a href="tel:+79781234567" class="footer__tel"
+                >+7 (978) 123 45 67</a
+              >
+            </div>
+          </div>
+          <div class="footer__products">
+            <h3 class="footer__title">продукция</h3>
+            <ul class="footer__items">
+              <li><a href="#" class="footer__link">Обои</a></li>
+              <li><a href="#" class="footer__link">краски</a></li>
+              <li><a href="#" class="footer__link">Декор</a></li>
+              <li><a href="#" class="footer__link">Карнизы для штор</a></li>
+              <li><a href="#" class="footer__link">Рулонные шторы</a></li>
+              <li><a href="#" class="footer__link">ткани</a></li>
+              <li><a href="#" class="footer__link">Подоконники "DANKE"</a></li>
+            </ul>
+            <form class="footer__search search">
+              <button type="submit" class="search__ico">
+                <img src="img/ico/search__footer.svg" alt="search" />
+              </button>
+              <input type="search" class="search__input" />
+            </form>
+          </div>
+          <div class="footer__services">
+            <h3 class="footer__title">услуги</h3>
+            <ul class="footer__items">
+              <li><a href="#" class="footer__link">монтаж изделий</a></li>
+              <li>
+                <a href="#" class="footer__link">покраска карнизов по ral</a>
+              </li>
+              <li><a href="#" class="footer__link">пошив штор</a></li>
+              <li>
+                <a href="#" class="footer__link">отпаривание и навеска штор</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about">
+            ИП Сигарье Н. Б. ОГРНИП 315910200182471, ИНН 910216934364
+          </div>
+          <div class="footer__copyright">
+            <p>© 2016–2020 DreamHouse «VENEZIA» Все права защищены.</p>
+            <p>Создание сайта РА Салгир</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/stepper.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

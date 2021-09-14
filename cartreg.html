@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>venezia</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="header__info">
+            <div class="header__catalog catalog-header">
+              <span class="catalog-header__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <ul class="catalog-header__podmenu">
+                <li><a href="catalog.html">Обои</a></li>
+                <li><a href="#">Краски</a></li>
+                <li><a href="#">Фрески</a></li>
+                <li><a href="#">Декор</a></li>
+                <li><a href="#">Карнизы и шторы</a></li>
+                <li><a href="#">Рулонные шторы</a></li>
+                <li><a href="#">Ткани</a></li>
+                <li><a href="#">Подоконники DANKE</a></li>
+                <li><a href="#">Маркизы</a></li>
+                <li><a href="#">Лепнина</a></li>
+              </ul>
+              <p class="catalog-header__text">каталог</p>
+            </div>
+            <span class="header__text">Пн-Пт 09:00-18:00</span>
+            <span class="header__text">г. Симферополь, пр. Победы, 1</span>
+            <a href="mailto:info@venezia-vip.ru" class="header__link"
+              >info@venezia-vip.ru</a
+            >
+            <a href="tel:+79781234567" class="header__link header__link-tel"
+              >+7 (978) 123 45 67</a
+            >
+          </div>
+          <div class="header__middle">
+            <form class="header__search search">
+              <button type="submit" class="search__ico">
+                <img src="img/ico/search.svg" alt="search" />
+              </button>
+              <input type="search" class="search__input" />
+            </form>
+            <a href="index.html" class="header__logo">
+              <img src="img/ico/logo.svg" alt="logo" />
+            </a>
+            <div class="header__functional">
+              <div class="header__basket">
+                <a href="cartonregistr.html" class="link"> Корзина </a>
+              </div>
+
+              <div class="header__entranceregistration">
+                <a href="#" class="header__entrance link"> Вход </a>
+                <span>/</span>
+                <a href="registr.html" class="header__registration link">
+                  Регистрация
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li>
+                  <a href="#" class="menu__link">услуги</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">акции</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="info.html" class="menu__link">информация</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">о компании</a>
+                </li>
+                <li>
+                  <a href="#" class="menu__link">отзывы</a>
+                </li>
+                <li>
+                  <a href="contacts.html" class="menu__link">контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="position">
+          <div class="position__container container">
+            <a href="index.html">Venezia </a><a href="#">Корзина </a>
+          </div>
+        </div>
+        <section class="cart" data-aos="fade-up">
+          <div class="cart__container container">
+            <h2 class="cart__title title">Ваш заказ размещен</h2>
+            <p class="cart__text text">
+              Спасибо за размещение заказа №01050721. Вы заказали:
+            </p>
+            <div class="cart__items">
+              <div class="cart__item">
+                <div class="cart__photo">
+                  <p class="cart__text cart__text-photo">фото</p>
+                  <div class="cart__img">
+                    <img src="img/cart.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="cart__name">
+                  <p class="cart__text">наименование</p>
+                  <article class="cart__article">
+                    <a href="#">Обои Balance артикул 220003</a>
+                  </article>
+                </div>
+                <div class="cart__counter">
+                  <p class="cart__text">количество</p>
+                  <div class="cart__management">
+                    <div class="cart__number">
+                      <div class="cart__down cart__down-btn cart__down--disabled">
+                        <img src="img/ico/minus.svg" alt="minus" />
+                      </div>
+                      <input
+                        type="number"
+                        class="cart__numericupdown cart__numericupdown-input"
+                        value="1"
+                        maxlength="3"
+                      />
+                      <div class="cart__up cart__up-btn">
+                        <img src="img/ico/plus.svg" alt="plus" />
+                      </div>
+                    </div>
+                    <div class="cart__reset">
+                      <img src="img/ico/update-arrow.svg" alt="reset" />
+                    </div>
+                    <div class="cart__del">
+                      <img src="img/ico/dustbin.svg" alt="del" />
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__price">
+                  <p class="cart__text">цена</p>
+                  <span class="cart__priceone" id="price">5500р</span>
+                </div>
+                <div class="cart__cost">
+                  <p class="cart__text">стоимость</p>
+                  <span class="cart__costname" id="sum">11000р</span>
+                </div>
+              </div>
+            </div>
+            <div class="cart__total">
+              <p class="cart__text cart__text-total">итого</p>
+              <span class="cart__totalprice" id="totla">11000р</span>
+            </div>
+          </div>
+        </section>
+        <div class="noregistr" data-aos="fade-up">
+          <div class="container noregistr__container">
+            <div class="noregistr__info noregistr__info-info">
+              <p>
+                Для уточнения деталей, на указанный вами в заказе номер телефона
+                в ближайшее время позвонит наш менеджер.
+                <p>На ваш e-mail отправлена копия с деталями заказа.</p>
+                <p>Проверить стаус заказа можно на <a href="#" class="noregisrt__link">этой странице.</a></p>
+              </p>
+              
+        
+              
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__info">
+            <div class="footer__logo">
+              <img src="img/ico/logo_footer.svg" alt="logo" />
+            </div>
+            <div class="footer__contacts">
+              <address class="footer__address">
+                г. Симферополь, пр. Победы, 1
+              </address>
+              <p class="footer__days">Пн-Пт 09:00-18:00</p>
+              <a href="mailto:info@venezia-vip.ru" class="footer__mail"
+                >info@venezia-vip.ru</a
+              >
+              <a href="tel:+79781234567" class="footer__tel"
+                >+7 (978) 123 45 67</a
+              >
+            </div>
+          </div>
+          <div class="footer__products">
+            <h3 class="footer__title">продукция</h3>
+            <ul class="footer__items">
+              <li><a href="#" class="footer__link">Обои</a></li>
+              <li><a href="#" class="footer__link">краски</a></li>
+              <li><a href="#" class="footer__link">Декор</a></li>
+              <li><a href="#" class="footer__link">Карнизы для штор</a></li>
+              <li><a href="#" class="footer__link">Рулонные шторы</a></li>
+              <li><a href="#" class="footer__link">ткани</a></li>
+              <li><a href="#" class="footer__link">Подоконники "DANKE"</a></li>
+            </ul>
+            <form class="footer__search search">
+              <button type="submit" class="search__ico">
+                <img src="img/ico/search__footer.svg" alt="search" />
+              </button>
+              <input type="search" class="search__input" />
+            </form>
+          </div>
+          <div class="footer__services">
+            <h3 class="footer__title">услуги</h3>
+            <ul class="footer__items">
+              <li><a href="#" class="footer__link">монтаж изделий</a></li>
+              <li>
+                <a href="#" class="footer__link">покраска карнизов по ral</a>
+              </li>
+              <li><a href="#" class="footer__link">пошив штор</a></li>
+              <li>
+                <a href="#" class="footer__link">отпаривание и навеска штор</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about">
+            ИП Сигарье Н. Б. ОГРНИП 315910200182471, ИНН 910216934364
+          </div>
+          <div class="footer__copyright">
+            <p>© 2016–2020 DreamHouse «VENEZIA» Все права защищены.</p>
+            <p>Создание сайта РА Салгир</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/stepper.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
